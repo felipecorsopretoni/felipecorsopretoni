@@ -58,7 +58,7 @@ Jogo com interface gráfica desenvolvido aplicando conceitos de Programação Or
 
 ### 🔒 MensageriaSegura
 Sistema de mensagens com criptografia simétrica e armazenamento seguro.
-`Python` `SQL`
+`Python` `MongoDB`
 
 ---
 
