@@ -3,6 +3,7 @@
 **Engenharia de Software — PUC-Campinas (2024–2027)**
 Construo sistemas com LLMs em produção: agentes com chamada de ferramentas, recuperação de contexto (RAG), saída estruturada e monitoramento de prompts.
 
+[![Portfólio](https://img.shields.io/badge/Portfólio-felipepretoni.web.app-FFD60A?style=flat-square&logoColor=black)](https://felipepretoni.web.app)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/felipe-corso-pretoni)
 [![Gmail](https://img.shields.io/badge/felipepretoni@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:felipepretoni@gmail.com)
 
@@ -26,33 +27,40 @@ Agente de IA no WhatsApp que atende clientes de uma loja de iPhones. Usa chamada
 `Python` `FastAPI` `PostgreSQL` `Gemini via OpenRouter` `Langfuse` `WhatsApp Cloud API` `Next.js` `Docker Swarm`
 
 ### Sistema de Gestão de Obras com IA e Conector MCP
-Cronograma (Gantt, curva-S), relatórios diários de obra e controle de qualidade. Uma IA lê e-mails do projeto e propõe atualizações de cronograma num fluxo de prévia e aplicação: o servidor recalcula os valores e a IA não altera linha de base nem estrutura. Também expõe um servidor MCP (OAuth 2.1 + PKCE, 28 ferramentas) para operar o painel pelo ChatGPT ou pelo Claude.
+Cronograma (Gantt, curva-S), relatórios diários de obra e controle de qualidade. Uma IA lê e-mails do projeto e propõe atualizações de cronograma num fluxo de prévia e aplicação: o servidor recalcula os valores e a IA não altera linha de base nem estrutura. Também expõe um servidor MCP (OAuth 2.1 + PKCE) para operar o painel pelo ChatGPT ou pelo Claude.
 `Python` `FastAPI` `PostgreSQL` `TypeScript` `Next.js` `MCP` `Playwright`
 
 ### Monitoramento Automatizado de Protocolos para Contabilidade
-Robô que acompanha sozinho os protocolos de abertura e alteração de empresas de um escritório de contabilidade, com painel de status e agente local, eliminando a consulta manual.
+Robô que acompanha sozinho os protocolos de abertura de empresas de um escritório de contabilidade, com painel de status, eliminando a consulta manual.
 `Python` `Automação web` `PostgreSQL` `Docker`
 
 ### Sistema de Gestão de Varejo
 Compras, estoque, vendas, caixa e CRM para uma rede de lojas em duas cidades, com dados separados por loja e clientes compartilhados na rede.
 `TypeScript` `Next.js` `React` `Supabase` `Node.js`
 
-### LIAD — Plataforma de Vendas com IA para Lojistas
+### App de Avaliação de Funcionários · *em produção*
+App Android usado por uma academia para avaliar funcionários, com área de avaliação e área administrativa para controle das respostas.
+`Kotlin` `Firebase Authentication` `Firestore`
+
+### [Portfólio pessoal](https://github.com/felipecorsopretoni/portfolio) · [felipepretoni.web.app](https://felipepretoni.web.app)
+Este site: os projetos acima com estudos de caso e diagramas de arquitetura em SVG, tema escuro/claro, animações de rolagem e layout pensado primeiro para o celular.
+`React` `TypeScript` `Vite` `Firebase Hosting`
+
+### [LIAD — Plataforma de Vendas com IA para Lojistas](https://github.com/felipecorsopretoni/Liad)
 Assistente de vendas com IA que responde clientes em tempo real com base no catálogo cadastrado pelo lojista.
 `Node.js` `TypeScript` `Express` `Google Gemini` `Firebase`
 
-### [Fundamentos de IA e Machine Learning](https://github.com/felipecorsopretoni/inteligencia-artificial-puc)
+### [Fundamentos de IA e Machine Learning](https://github.com/felipecorsopretoni/inteligencia-artificial)
 Implementações da disciplina de IA: KNN, SVM, BFS/DFS, agentes baseados em regras, redes neurais, regressão com gradiente descendente, K-Means e validação K-Fold.
 `Python`
 
 <details>
 <summary><b>Outros projetos</b></summary>
 
-- **Super ID**: gerenciador de senhas Android com login por QR Code (`Kotlin` `Firebase`)
-- **IdoSOS**: app de acompanhamento de saúde entre idoso e cuidador (`Kotlin` `Firestore` `MongoDB`)
-- **Avaliador de Funcionários**: app de avaliações com área administrativa (`Kotlin` `Firebase`)
-- **MensageriaSegura**: mensagens com criptografia simétrica (`Python` `MongoDB`)
-- **Jogo de RPG**: jogo com interface gráfica aplicando POO (`Java`)
+- **[Super ID](https://github.com/felipecorsopretoni/PI3-Turma2-2)**: gerenciador de senhas Android com login por QR Code (`Kotlin` `Firebase`)
+- **[IdoSOS](https://github.com/felipecorsopretoni/PI_IV_ES_TIME-2)**: app de acompanhamento de saúde entre idoso e cuidador (`Kotlin` `Firestore` `MongoDB`)
+- **[MensageriaSegura](https://github.com/felipecorsopretoni/MensageriaSegura)**: mensagens com criptografia simétrica (`Python` `MongoDB`)
+- **[Shadows of Earthen](https://github.com/felipecorsopretoni/RPG-POO)**: jogo de RPG com interface gráfica aplicando POO (`Java`)
 
 </details>
 
